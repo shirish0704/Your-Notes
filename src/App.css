@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+  background-color: #242424;
+  margin: 0;
+  align-items: center;
+  color: #a8a1a1;
+  margin-top: 0;
+}
+
+img {
+  padding: 0 30px 0 30px;
+  border-radius: 50%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #242424;
+}
+
+.main_note {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.8);
+}
+
+input {
+  flex: 1;
+  outline: none;
+  background: transparent;
+  border: none;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 500;
+  color: #242424;
+}
+
+textarea {
+  outline: none;
+  background: transparent;
+  border: none;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 35px;
+  font-weight: 500;
+  color: #242424;
+}
+
+.createBtn {
+  position: relative;
+  height: 55px;
+  width: 50px;
+  left: 305px;
+  top: 25px;
+}
+.createBtn:hover {
+  color: #242424;
+}
+.box {
+  display: inline-block;
+  margin: 15px;
+}
+
+.note {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 25px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  height: auto;
+  width: 250px;
+  padding: 15px;
+  color: #242424;
+}
+
+.noteBtn {
+  position: relative;
+  left: 200px;
+  height: 60px;
+  width: 60px;
+}
+
+.deleteBtn {
+  color: #242424;
+}
+
+.deleteBtn:hover {
+  color: rgb(144, 37, 37);
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 5px 0 0 0;
+}
