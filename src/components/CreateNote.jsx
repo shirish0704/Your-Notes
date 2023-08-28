@@ -55,6 +55,7 @@ const CreateNote = (props) => {
           ></textarea>
           {expand ? (
             <Button
+              disabled={!note.title || !note.content}
               onClick={addEvent}
               className="createBtn"
               sx={{
